@@ -1,6 +1,11 @@
 # SP_Business_rules
 I used the database made by Nick Roumimper to make these recommendations.
 
+## How to use
+Run the program, and it will ask you which filtering rule you'd like to use.
+Next up you have to provide a valid profile id, or product id, depending on which rule you chose
+It will give four recommendations.
+
 ### Collaborative filitering rule
 This rule looks at all the viewed products in a profile and selects a random product from that list.
 We want it random, because otherwise the customer will get the same recommended products every time,
